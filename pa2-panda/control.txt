@@ -1,0 +1,2 @@
+1:left leg2 seg1
+2:left leg2 seg2

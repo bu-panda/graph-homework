@@ -1,0 +1,103 @@
+<mainbody type="palm" x-scale="0.9" y-scale="0.8" z-scale="1.0" position="0,0,0" label="main body" texture="texture.jpg" radius="0.6" texture-enable="true" color="00ff00" direct="0,0,0" x-rotate-range="0,0" y-rotate-range="0,0" z-rotate-range="0,0">
+    <frontbody type="palm" x-scale="0.9" y-scale="0.8" z-scale="1.0" position="0,0,1.1" label="front body" texture="texture.jpg" radius="0.3" texture-enable="false" color="ff00ff" direct="0,0,0" x-rotate-range="0,0" y-rotate-range="0,0" z-rotate-range="0,0">
+        
+        <eyeball type="palm" x-scale="1" y-scale="1" z-scale="1" position="0.05,0.1928,0.5298" label="left eye boll" texture="texture.jpg" radius="0.06" texture-enable="false" color="ffffff" direct="0,0,0" x-rotate-range="0,0" y-rotate-range="0,0" z-rotate-range="0,0">
+            <eye type="palm" x-scale="1" y-scale="1" z-scale="1" position="0,0,0.06" label="left eye" texture="texture.jpg" radius="0.04" texture-enable="false" color="000000" direct="0,0,0" x-rotate-range="-90,90" y-rotate-range="-90,90" z-rotate-range="-90,90" />
+        </eyeball>
+        
+        <eyeball type="palm" x-scale="1" y-scale="1" z-scale="1" position="-0.05,0.1928,0.5298" label="right eye boll" texture="texture.jpg" radius="0.06" texture-enable="false" color="ffffff" direct="0,0,0" x-rotate-range="0,0" y-rotate-range="0,0" z-rotate-range="0,0">
+            <eye type="palm" x-scale="1" y-scale="1" z-scale="1" position="0,0,0.06" label="right eye" texture="texture.jpg" radius="0.04" texture-enable="false" color="000000" direct="0,0,0" x-rotate-range="-90,90" y-rotate-range="-90,90" z-rotate-range="-90,90" />
+        </eyeball>
+        
+        <piler type="round" position="-0.12,0.1,0.55" radius="0.03" color="ff0000" height="0.08" label="left piler 1" direct="60,6,0" x-rotate-range="52,68" y-rotate-range="2,16" z-rotate-range="0,0" >
+            <piler type="round" position="0,0,0.08" radius="0.016" color="00ff00" height="0.08" label="left piler 2" direct="0,8,0" x-rotate-range="0,0" y-rotate-range="4,18" z-rotate-range="0,0" >
+                <piler type="round" position="0,0,0.08" radius="0.012" color="0000ff" height="0.08" label="left piler 3" direct="0,8,0" x-rotate-range="0,0" y-rotate-range="4,18" z-rotate-range="0,0" >
+                    <piler type="round" position="0,0,0.08" radius="0.008" color="00ff00" height="0.08" label="left piler 4" direct="0,8,0" x-rotate-range="0,0" y-rotate-range="4,18" z-rotate-range="0,0" >
+                    </piler>
+                </piler>
+            </piler>
+        </piler>
+        
+        <piler type="round" position="0.12,0.1,0.55" radius="0.03" color="ff0000" height="0.08" label="right piler 1" direct="60,-6,0" x-rotate-range="52,68" y-rotate-range="-16,-2" z-rotate-range="0,0" >
+            <piler type="round" position="0,0,0.08" radius="0.016" color="00ff00" height="0.08" label="right piler 2" direct="0,-8,0" x-rotate-range="0,0" y-rotate-range="-4,-18" z-rotate-range="0,0" >
+                <piler type="round" position="0,0,0.08" radius="0.012" color="0000ff" height="0.08" label="right piler 3" direct="0,-8,0" x-rotate-range="0,0" y-rotate-range="-4,-18" z-rotate-range="0,0" >
+                    <piler type="round" position="0,0,0.08" radius="0.008" color="00ff00" height="0.08" label="right piler 4" direct="0,-8,0" x-rotate-range="0,0" y-rotate-range="-4,-18" z-rotate-range="0,0" >
+                    </piler>
+                </piler>
+            </piler>
+        </piler>
+        
+        <leg type="round" position="0.1,-0.1,0.09" radius="0.025" color="0000ff" height="0.3" label="left leg1 seg1" direct="0,100,0" x-rotate-range="0,0" y-rotate-range="94,106" z-rotate-range="0,0">
+            <leg type="round" position="0,0,0.3" radius="0.02" color="ff0000" height="0.5" label="left leg1 seg2" direct="-60,0,0" x-rotate-range="-68,-52" y-rotate-range="0,0" z-rotate-range="0,0">
+                <leg type="round" position="0,0,0.5" radius="0.015" color="00ff12" height="0.6" label="left leg1 seg3" direct="30,0,0" x-rotate-range="22,38" y-rotate-range="0,0" z-rotate-range="0,0">
+                    <leg type="round" position="0,0,0.6" radius="0.010" color="99ff00" height="0.9" label="left leg1 seg4" direct="100,0,0" x-rotate-range="94,106" y-rotate-range="0,0" z-rotate-range="0,0">
+                    </leg>
+                </leg>
+            </leg>
+        </leg>
+        
+        <leg type="round" position="0.2,-0.1,0.18" radius="0.025" color="0000ff" height="0.3" label="left leg2 seg1" direct="0,80,0" x-rotate-range="0,0" y-rotate-range="74,86" z-rotate-range="0,0">
+            <leg type="round" position="0,0,0.3" radius="0.02" color="00ff00" height="0.5" label="left leg2 seg2" direct="-60,0,0" x-rotate-range="-68,-52" y-rotate-range="0,0" z-rotate-range="0,0">
+                <leg type="round" position="0,0,0.5" radius="0.015" color="ffff12" height="0.6" label="left leg2 seg3" direct="30,0,0" x-rotate-range="22,38" y-rotate-range="0,0" z-rotate-range="0,0">
+                    <leg type="round" position="0,0,0.6" radius="0.010" color="99ff00" height="0.9" label="left leg2 seg4" direct="100,0,0" x-rotate-range="94,106" y-rotate-range="0,0" z-rotate-range="0,0">
+                    </leg>
+                </leg>
+            </leg>
+        </leg>
+        
+        <leg type="round" position="0.2,-0.1,0.27" radius="0.025" color="99ff12" height="0.3" label="left leg3 seg1" direct="0,60,0" x-rotate-range="0,0" y-rotate-range="54,66" z-rotate-range="0,0">
+            <leg type="round" position="0,0,0.3" radius="0.02" color="990012" height="0.5" label="left leg3 seg2" direct="-60,0,0" x-rotate-range="-68,-52" y-rotate-range="0,0" z-rotate-range="0,0">
+                <leg type="round" position="0,0,0.5" radius="0.015" color="00ff12" height="0.6" label="left leg3 seg3" direct="30,0,0" x-rotate-range="22,38" y-rotate-range="0,0" z-rotate-range="0,0">
+                    <leg type="round" position="0,0,0.6" radius="0.010" color="99ff00" height="0.9" label="left leg3 seg4" direct="100,0,0" x-rotate-range="94,106" y-rotate-range="0,0" z-rotate-range="0,0">
+                    </leg>
+                </leg>
+            </leg>
+        </leg>
+
+        <leg type="round" position="0.15,-0.1,0.36" radius="0.025" color="99ff12" height="0.3" label="left leg4 seg1" direct="0,40,0" x-rotate-range="0,0" y-rotate-range="34,46" z-rotate-range="0,0">
+            <leg type="round" position="0,0,0.3" radius="0.02" color="990012" height="0.5" label="left leg4 seg2" direct="-60,0,0" x-rotate-range="-68,-52" y-rotate-range="0,0" z-rotate-range="0,0">
+                <leg type="round" position="0,0,0.5" radius="0.015" color="00ff12" height="0.6" label="left leg4 seg3" direct="30,0,0" x-rotate-range="22,38" y-rotate-range="0,0" z-rotate-range="0,0">
+                    <leg type="round" position="0,0,0.6" radius="0.010" color="99ff00" height="0.9" label="left leg4 seg4" direct="100,0,0" x-rotate-range="94,106" y-rotate-range="0,0" z-rotate-range="0,0">
+                    </leg>
+                </leg>
+            </leg>
+        </leg>
+
+        <leg type="round" position="-0.1,-0.1,0.09" radius="0.025" color="0000ff" height="0.3" label="right leg1 seg1" direct="0,-100,0" x-rotate-range="0,0" y-rotate-range="-106,-94" z-rotate-range="0,0">
+            <leg type="round" position="0,0,0.3" radius="0.02" color="ff0000" height="0.5" label="right leg1 seg2" direct="-60,0,0" x-rotate-range="-68,-52" y-rotate-range="0,0" z-rotate-range="0,0">
+                <leg type="round" position="0,0,0.5" radius="0.015" color="00ff12" height="0.6" label="right leg1 seg3" direct="30,0,0" x-rotate-range="22,38" y-rotate-range="0,0" z-rotate-range="0,0">
+                    <leg type="round" position="0,0,0.6" radius="0.010" color="99ff00" height="0.9" label="right leg1 seg4" direct="100,0,0" x-rotate-range="94,106" y-rotate-range="0,0" z-rotate-range="0,0">
+                    </leg>
+                </leg>
+            </leg>
+        </leg>
+
+        <leg type="round" position="-0.2,-0.1,0.18" radius="0.025" color="0000ff" height="0.3" label="right leg2 seg1" direct="0,-80,0" x-rotate-range="0,0" y-rotate-range="-86,-74" z-rotate-range="0,0">
+            <leg type="round" position="0,0,0.3" radius="0.02" color="00ff00" height="0.5" label="right leg2 seg2" direct="-60,0,0" x-rotate-range="-68,-52" y-rotate-range="0,0" z-rotate-range="0,0">
+                <leg type="round" position="0,0,0.5" radius="0.015" color="ffff12" height="0.6" label="right leg2 seg3" direct="30,0,0" x-rotate-range="22,38" y-rotate-range="0,0" z-rotate-range="0,0">
+                    <leg type="round" position="0,0,0.6" radius="0.010" color="99ff00" height="0.9" label="right leg2 seg4" direct="100,0,0" x-rotate-range="94,106" y-rotate-range="0,0" z-rotate-range="0,0">
+                    </leg>
+                </leg>
+            </leg>
+        </leg>
+        
+        <leg type="round" position="-0.2,-0.1,0.27" radius="0.025" color="99ff12" height="0.3" label="right leg3 seg1" direct="0,-60,0" x-rotate-range="0,0" y-rotate-range="-66,-54" z-rotate-range="0,0">
+            <leg type="round" position="0,0,0.3" radius="0.02" color="990012" height="0.5" label="right leg3 seg2" direct="-60,0,0" x-rotate-range="-68,-52" y-rotate-range="0,0" z-rotate-range="0,0">
+                <leg type="round" position="0,0,0.5" radius="0.015" color="00ff12" height="0.6" label="right leg3 seg3" direct="30,0,0" x-rotate-range="22,38" y-rotate-range="0,0" z-rotate-range="0,0">
+                    <leg type="round" position="0,0,0.6" radius="0.010" color="99ff00" height="0.9" label="right leg3 seg4" direct="100,0,0" x-rotate-range="94,106" y-rotate-range="0,0" z-rotate-range="0,0">
+                    </leg>
+                </leg>
+            </leg>
+        </leg>
+
+        <leg type="round" position="-0.15,-0.1,0.36" radius="0.025" color="99ff12" height="0.3" label="right leg4 seg1" direct="0,-40,0" x-rotate-range="0,0" y-rotate-range="-46,-34" z-rotate-range="0,0">
+            <leg type="round" position="0,0,0.3" radius="0.02" color="990012" height="0.5" label="right leg4 seg2" direct="-60,0,0" x-rotate-range="-68,-52" y-rotate-range="0,0" z-rotate-range="0,0">
+                <leg type="round" position="0,0,0.5" radius="0.015" color="00ff12" height="0.6" label="right leg4 seg3" direct="30,0,0" x-rotate-range="22,38" y-rotate-range="0,0" z-rotate-range="0,0">
+                    <leg type="round" position="0,0,0.6" radius="0.010" color="99ff00" height="0.9" label="right leg4 seg4" direct="100,0,0" x-rotate-range="94,106" y-rotate-range="0,0" z-rotate-range="0,0">
+                    </leg>
+                </leg>
+            </leg>
+        </leg>
+
+    </frontbody>
+</mainbody>
